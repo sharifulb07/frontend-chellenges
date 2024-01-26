@@ -1,15 +1,20 @@
 
 import './App.css';
-import Registration from './components/Registration';
+import Navbar from './components/Navbar';
+ import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
+    <Router>
+
     <div className="App">
-      <h1> Hello World </h1>
-      <Registration />
+  
+      <Navbar />
 
 
     </div>
+
+    </Router>
   );
 }
 
