@@ -1,21 +1,14 @@
+import React from "react";
+import TodoList from "./components/TodoList";
+import MyTodoList from "./components/MyTodoList";
 
-import './App.css';
-import Navbar from './components/Navbar';
- import { BrowserRouter as Router } from 'react-router-dom';
-
-function App() {
+const App = () => {
   return (
-    <Router>
-
-    <div className="App">
-  
-      <Navbar />
-
-
+    <div>
+   
+   <MyTodoList />
     </div>
-
-    </Router>
   );
-}
+};
 
 export default App;
